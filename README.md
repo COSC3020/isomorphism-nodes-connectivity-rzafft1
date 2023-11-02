@@ -16,6 +16,6 @@ proof
 - if we have two graphs $A$ and $B$ that are completley connected and have the same number of nodes...
 - since $A$ and $B$ have the same number of nodes, there can exist a mapping such that every node in $A$ can be mapped to a unique node in $B$. This creates a one to one bijection between the two graphs.
 - since $A$ and $B$ are completley connected and have the same number of nodes, every node has an edge, and both graphs must have the same number of edges, so if two nodes are connected by an edge in the first graph, they must be mapped to two nodes connected by an edge in the second graph.
-- this means that there exists a one to one bijection between $A$ and $B$ such that if $A = (V_1 , E_1)$ and $B = (V_2, E_2)$ then $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
+- this means that there exists a one to one bijection between $V_1$ and $V_2$ such that if $A = (V_1 , E_1)$ and $B = (V_2, E_2)$ then $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
 - this fullfills the definition of isomorphism, such that there exists a one to one bijection between the nodes and edges of graphs $A$ and $B$ where two nodes in $A$ that are connected by an edge can be mapped to two nodes in $B$ connected by an edge
 - therefore, any two graphs that are completley connected and have the same number of nodes are isomorphic
